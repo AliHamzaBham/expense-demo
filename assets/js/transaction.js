@@ -38,8 +38,8 @@ const body = document.querySelector('body');
 
 addBtn.addEventListener('click', () => {
     bgModal.style.display = "flex";
-    toggleSidebarBtn.style.display = "none";
-    body.classList.add('toggle-sidebar');
+    // toggleSidebarBtn.style.display = "none";
+    body.classList.add('toggle-sidebar'); 
 });
 
 cross.addEventListener('click', () => {
