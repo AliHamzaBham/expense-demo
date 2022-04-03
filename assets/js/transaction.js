@@ -39,17 +39,17 @@ const body = document.querySelector('body');
 addBtn.addEventListener('click', () => {
     bgModal.style.display = "flex";
     // toggleSidebarBtn.style.display = "none";
-    body.classList.add('toggle-sidebar'); 
+    // body.classList.add('toggle-sidebar'); 
 });
 
 cross.addEventListener('click', () => {
     bgModal.style.display = "none";
     toggleSidebarBtn.style.display = "block";
-    body.classList.remove('toggle-sidebar');
+    // body.classList.remove('toggle-sidebar');
 });
 bgModal.addEventListener('click', () => {
     bgModal.style.display = "none";
     toggleSidebarBtn.style.display = "block";
-    body.classList.remove('toggle-sidebar');
+    // body.classList.remove('toggle-sidebar');
 });
 // Modal End
